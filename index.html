@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<script src="main.js"></script>
+	<title>マルコフ連鎖で作曲してみた</title>
+</head>
+<body>
+	<h1>マルコフ連鎖で作曲してみた</h1>
+	<div id="whats-markov-chain">
+		<h2>マルコフ連鎖とは？</h2>
+		<p>マルコフ連鎖(英: Markov chain)とは、今の状態から進む次の状態をランダムに選ぶ方法のことです。</p>
+		<p>（関わるのは今の状態だけで、前の状態は関係ありません。）</p>
+		<p>このサイトでは、曲のコードを「状態」としてマルコフ連鎖で作曲を行います。</p>
+	</div>
+	<div id="inputWrap">
+		<input id="long" type="number" placeholder="小節数"><button type="button" id="createMusic">作成</button>
+	</div>
+	<h2>結果</h2>
+	<p id="result">
+
+	</p>
+</body>
+</html>

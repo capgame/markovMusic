@@ -1,0 +1,40 @@
+body {
+	font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic';
+	text-align: center;
+}
+#whats-markov-chain{
+	background-color: #EEE;
+	margin: 0 auto;
+
+	border-radius: 8px;
+
+	max-width: 800px;
+	width: 90%;
+}
+
+#inputWrap{
+	display: flex;
+	justify-content: center;
+}
+
+#long{
+	font-family: inherit;
+	font-size: inherit;
+}
+
+#result{
+	font-size: 2em;
+	color: #777777;
+	max-width: 1000px;
+	width: 90%;
+	margin: 0 auto;
+	text-align: left;
+	word-wrap: break-word;
+}
+
+.code{
+	vertical-align: middle;
+	font-weight: bold;
+	color: black;
+	margin: 10px;
+}
